@@ -15,6 +15,7 @@
 		BF8452B51B1E41DD00A332D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8452B41B1E41DD00A332D1 /* Images.xcassets */; };
 		BF8452B81B1E41DD00A332D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8452B61B1E41DD00A332D1 /* LaunchScreen.xib */; };
 		BF8452C41B1E41DD00A332D1 /* GameofThronesAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8452C31B1E41DD00A332D1 /* GameofThronesAppTests.m */; };
+		BF8452CE1B1E450500A332D1 /* gameofthrones.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8452CD1B1E450500A332D1 /* gameofthrones.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		BF8452BD1B1E41DD00A332D1 /* GameofThronesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameofThronesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8452C21B1E41DD00A332D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8452C31B1E41DD00A332D1 /* GameofThronesAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameofThronesAppTests.m; sourceTree = "<group>"; };
+		BF8452CD1B1E450500A332D1 /* gameofthrones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = gameofthrones.plist; path = ../../../../../Desktop/gameofthrones.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BF8452A51B1E41DD00A332D1 /* Info.plist */,
 				BF8452A61B1E41DD00A332D1 /* main.m */,
+				BF8452CD1B1E450500A332D1 /* gameofthrones.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				BF8452B31B1E41DD00A332D1 /* Main.storyboard in Resources */,
 				BF8452B81B1E41DD00A332D1 /* LaunchScreen.xib in Resources */,
 				BF8452B51B1E41DD00A332D1 /* Images.xcassets in Resources */,
+				BF8452CE1B1E450500A332D1 /* gameofthrones.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

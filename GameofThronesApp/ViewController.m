@@ -10,13 +10,23 @@
 
 @interface ViewController ()
 
+@property NSArray *names;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"gameofthrones"
+                                                     ofType:@"plist"];
+    self.names = [[NSArray alloc]
+                  initWithContentsOfFile:path];
+
+    NSLog(@"%@", self.names);
+
+
 }
 
 - (void)didReceiveMemoryWarning {
